@@ -1,0 +1,22 @@
+{
+  "name": "truffle-suite-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:contracts": "typechain --target ethers --outDir server/contracts \"./build/contracts/*.json\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.46",
+    "typechain": "^1.0.5"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.9.1",
+    "solc": "^0.6.6",
+    "truffle": "^5.1.22",
+    "typechain-target-ethers": "^1.0.4"
+  }
+}
